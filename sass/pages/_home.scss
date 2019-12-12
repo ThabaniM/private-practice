@@ -1,0 +1,26 @@
+.section-about{
+    background-color: $color-grey-light;
+    padding: 15rem 0;
+    margin-top: -20vh;  //to remove white part of header
+  
+}
+
+.section-therapies{
+    background-image: linear-gradient(to right,rgba($color-primary-light,0.8), rgba($color-primary-dark,0.8));
+    background-size: cover; // gets gradient working
+    transform: skewY(-7deg);
+    padding: 9rem 0 15rem 0;
+    margin-top: -11vh;
+
+    & > * { // direct children
+        transform: skewY(7deg);
+    }
+}
+
+.section-map {
+   padding-top: 20rem;
+   background-color: $color-grey-light;
+   margin-top: -20vh;
+   
+}
+

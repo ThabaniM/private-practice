@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    //color: blue;
+}
+
+html {
+    //rem set using root element 10px/16 px, defines 1rem 
+    //default font-size on most browsers is 16px
+    // 1rem = 10px . 10 chosen for ease of use
+    font-size: 62.5%; 
+}
+
+body{ //now all children of this parent will inherit below attr.
+    box-sizing: border-box;
+    padding: 3rem;
+    
+    @include respond(tab-land) {
+        padding: 0;
+    }
+    
+}
+
+//fasdfkaj

@@ -1,0 +1,58 @@
+.btn{
+    
+    &:link, 
+    &:visited {
+        border-radius: 1rem;
+        background-color: $alt-color-primary;
+        color: $color-primary-dark;
+        font-size: 3rem;
+        display: inline-block;
+        padding: 1rem;
+        text-decoration: none;
+        box-shadow: .3rem .6rem $color-primary-dark;
+        transition: all .2s;
+    }
+
+    &:active {
+        transform: translateY(-.4rem);
+        background-color: white;
+      
+    }
+
+
+
+    
+}
+
+a.btn  {
+
+    &:hover {
+        color: white;
+        background-color: $alt-color-primary-bright;
+    }
+}
+
+.btn-text {
+     display: inline-block;
+     text-align: right;
+     transition: all 0.3s;
+/*
+     &:link {
+        color: $alt-color-primary;
+     }
+
+     &:visited{
+        color: $alt-color-primary-bright;
+     }
+    */
+
+     &:hover{
+         background-color: $color-primary-dark;
+         color: white;
+         transform: scale(1.5);
+     }
+     
+  
+}
+
+

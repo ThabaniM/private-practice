@@ -1,0 +1,13 @@
+.form{
+    
+    & > * {
+        margin: 2rem 0 1rem 0;
+    }
+
+    & > :not([type=submit]) {
+        width: 100%;
+        line-height: 3rem;
+    }
+
+    
+}

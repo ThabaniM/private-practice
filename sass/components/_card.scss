@@ -1,0 +1,54 @@
+.card {
+    height: 50rem;
+    background-color: $color-grey-light;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    box-shadow: .4rem .7rem .5rem $color-primary-dark;
+    transition: all .2s;
+    
+
+    @include respond(tab-land) {
+        min-height: 58.1rem;
+
+        
+    }
+
+    &:hover{
+        transform: translateY(-.5rem);
+ 
+
+    }
+      &__picture {
+        background-size: cover;
+        height: 23rem;
+        background-position: center;
+       
+   
+
+            &--1{
+                background-image: url(../img/brain-cbt.jpg);
+                
+            }
+
+            &--2{
+                background-image: url(../img/therapy.jpg);
+                
+            }
+
+            &--3{
+                background-image:  url(../img/hypnosis.jpg);
+            }
+
+         
+      
+    
+    }
+
+    &__heading {
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+  
+}
