@@ -1,3 +1,4 @@
+
 // Initialize and add the map
 function initMap() {
   // The location of Uluru -29.858580, 31.023530
